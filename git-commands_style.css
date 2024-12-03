@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(0, 174, 255);
+    display: flex;
+    flex-direction: row; 
+    width: 100%;  
+    justify-content: space-between;
+    align-items: center;
+}
+.pib{
+    color: white;
+    text-indent: 30px;
+}
+h1{
+    font-weight: bolder;
+    text-indent: 15px;
+}
+main{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.caption{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.cap1{
+    color: rgb(0, 183, 255);
+}
+.cap2{
+    color: rgba(0, 26, 255, 0.781);
+}
+.cap3{
+    color: rgb(24, 179, 10);
+} 
+.cap4{
+    color: green;
+}
+.cap5{
+    color: rgb(255, 115, 0);
+}
+.cap6{
+    color: rgb(255, 72, 0);
+}
+.description{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: grey;
+}
+.command{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
